@@ -1,0 +1,5 @@
+In this example, we create a Deque object of type String using the LinkedList class. We then add three elements to the back of the deque using the addLast(E e) method. This method adds the specified element to the back of the deque. We then print the deque to the console.
+
+Next, we remove the last element from the deque using the removeLast() method. This method removes and returns the last element from the deque. We then print the removed element and the updated deque to the console.
+
+Note that the Deque interface provides two methods for adding elements to the back of the deque: addLast(E e) and offerLast(E e). Both methods are equivalent and add the specified element to the back of the deque. However, addLast(E e) throws an exception if the deque is full, whereas offerLast(E e) returns false. Therefore, it's generally a good practice to use offerLast(E e) instead of addLast(E e) when dealing with bounded deques to avoid exceptions.

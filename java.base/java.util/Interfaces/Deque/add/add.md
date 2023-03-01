@@ -1,0 +1,3 @@
+In this example, we create a Deque object of type String using the LinkedList class. We then add three elements to the deque using the add(E e) method. Finally, we print the deque to the console.
+
+Note that the add(E e) method adds the specified element to the end of the deque, which is why the elements are printed in the order they were added (i.e., "apple", "banana", "cherry"). If we wanted to add an element to the beginning of the deque, we could use the addFirst(E e) method instead.
